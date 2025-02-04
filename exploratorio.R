@@ -72,3 +72,8 @@ temp1 |>
   summarise(Promedio = mean(`Body Mass (g)`, na.rm = T),
             Desviacion = sd(`Body Mass (g)`, na.rm = T))
 
+
+write.csv(temp1, file = "datos.csv")
+
+
+
